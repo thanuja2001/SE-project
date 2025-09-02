@@ -11,6 +11,7 @@ Styling: Bootstrap (via CDN).
    git clone <github.com/thanuja2001/SE-project>
    cd <SE-project>
 
+
 👥 Team Members
 
 • T.A.B Jayalath -   	ASP/2022/133	-   5918
@@ -22,6 +23,7 @@ Styling: Bootstrap (via CDN).
 • A.G.T.N Bandara	- ASP/2022/141	- 5922
 
 •R.H.M.B.T. Bandara	-ASB/2022/166 -	5936 
+
 
 
 ✨ Features
@@ -39,19 +41,20 @@ Styling: Bootstrap (via CDN).
 • Flash messages for validation
 
 
+
 👥 Contribution Table
 
-Member	                  Task
+Member	                       Task
 
-R.H.M.B.T. Bandara	  	List + Search
+R.H.M.B.T. Bandara	   - 	List + Search
 
-M.A.D.C Athukorala	    Create Form
+M.A.D.C Athukorala	   -  Create Form
 
-W.A.A.S Weerasinghe 	  Edit Form
+W.A.A.S Weerasinghe 	-   Edit Form
 
-T.A.B Jayalath	        Delete
+T.A.B Jayalath	     -    Delete
 
-A.G.T.N Bandara         Seed + README
+A.G.T.N Bandara       -   Seed + README
 
 
 
