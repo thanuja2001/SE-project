@@ -46,15 +46,15 @@ Styling: Bootstrap (via CDN).
 
 Member	                       Task
 
-R.H.M.B.T. Bandara	   - 	List + Search
+W.A.A.S.Weerasingha  	   - 	List + Search
 
-M.A.D.C Athukorala	   -  Create Form
+M.A.D.C Athukorala	      -  Create Form
 
-W.A.A.S Weerasinghe 	-   Edit Form
+R.H.M.B.T. Bandara	 	    -   Edit Form
 
-T.A.B Jayalath	     -    Delete
+T.A.B Jayalath	          -    Delete
 
-A.G.T.N Bandara       -   Seed + README
+A.G.T.N Bandara          -   Seed + README
 
 
 screenshorts
