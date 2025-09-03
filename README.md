@@ -11,6 +11,10 @@ Styling: Bootstrap (via CDN).
    git clone <github.com/thanuja2001/SE-project>
    cd <SE-project>
 
+   
+2.open your browser and vist:http://127.0.0.1:5000
+
+
 
 👥 Team Members
 
@@ -57,9 +61,22 @@ T.A.B Jayalath	          -    Delete
 A.G.T.N Bandara          -   Seed + README
 
 
-screenshorts
+Flask app runs-  screenshorts
+
 <img width="1208" height="625" alt="Screenshot from 2025-09-03 02-26-47" src="https://github.com/user-attachments/assets/513f3f59-9c7e-42db-8ae9-4e75189f306f" />
 
+
 <img width="1212" height="236" alt="Screenshot from 2025-09-03 02-27-32" src="https://github.com/user-attachments/assets/41282cd9-9c63-4f4d-a939-5f1cadfb7bc0" />
+
+
+create Form-  screenshorts
+
+<img width="804" height="421" alt="Screenshot from 2025-09-03 16-42-30" src="https://github.com/user-attachments/assets/4656eca2-25ad-4535-8842-54a00041432c" />
+
+<img width="1214" height="657" alt="Screenshot from 2025-09-03 19-07-25" src="https://github.com/user-attachments/assets/f35aee3e-3a91-41de-b63a-8ffd07d6a812" />
+
+
+
+
 
 
