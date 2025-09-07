@@ -32,7 +32,7 @@ Styling: Bootstrap (via CDN).
 
 ✨ Features
 
-• List students (with search filter)
+• List students 
 
 • Add new student (Create)
 
@@ -48,17 +48,17 @@ Styling: Bootstrap (via CDN).
 
 👥 Contribution Table
 
-Member	                       Task
+Member	                       Branch
 
-W.A.A.S.Weerasingha  	   - 	List + Search
+R.H.M.B.T. Bandara	 	    -   main
 
-M.A.D.C Athukorala	      -  Create Form
+W.A.A.S.Weerasingha  	   - 	students-module
 
-R.H.M.B.T. Bandara	 	    -   Edit Form
+M.A.D.C Athukorala	      -  models-module
 
-T.A.B Jayalath	          -    Delete
+T.A.B Jayalath	          -  forms-module
 
-A.G.T.N Bandara          -   Seed + README
+A.G.T.N Bandara          -  home-page
 
 
 Flask app runs-  screenshorts
@@ -68,9 +68,15 @@ Flask app runs-  screenshorts
 
 <img width="1212" height="236" alt="Screenshot from 2025-09-03 02-27-32" src="https://github.com/user-attachments/assets/41282cd9-9c63-4f4d-a939-5f1cadfb7bc0" />
 
+Home page - screenshorts
+<img width="1366" height="685" alt="home page" src="https://github.com/user-attachments/assets/df60ba4f-721b-45e6-afee-a0611d996c57" />
 
 
+Form page - screenshorts
+<img width="1366" height="695" alt="ceate" src="https://github.com/user-attachments/assets/133195c5-2b4e-4cc0-a7b4-a3a60b48e123" />
 
+list page - screenshorts
+<img width="1347" height="664" alt="list page" src="https://github.com/user-attachments/assets/1f2b2a28-2502-4468-b4e9-43bbdbb7c025" />
 
 
 
