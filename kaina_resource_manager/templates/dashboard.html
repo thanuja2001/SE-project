@@ -1,0 +1,48 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="page-header">
+    <h1><i class="bi bi-grid-1x2-fill"></i> Resources</h1>
+    <div class="controls-container">
+        <form id="filterSortForm" method="GET" action="{{ url_for('dashboard') }}" class="d-flex gap-2">
+            <input type="search" name="q" class="form-control" placeholder="Search resources..." value="{{ search_query or '' }}">
+            <select name="sort" class="form-select" onchange="this.form.submit()">
+                <option value="name_asc" {% if sort_param == 'name_asc' %}selected{% endif %}>Name (A-Z)</option>
+                <option value="name_desc" {% if sort_param == 'name_desc' %}selected{% endif %}>Name (Z-A)</option>
+                <option value="date_desc" {% if sort_param == 'date_desc' %}selected{% endif %}>Newest First</option>
+                <option value="date_asc" {% if sort_param == 'date_asc' %}selected{% endif %}>Oldest First</option>
+            </select>
+            <select name="type" class="form-select" onchange="this.form.submit()">
+                <option value="">All Types</option>
+                {% for type in ResourceType %}
+                <option value="{{ type.name }}" {% if current_filter == type.name %}selected{% endif %}>{{ type.value }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit" class="btn btn-primary">Go</button>
+        </form>
+    </div>
+</div>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    {% for resource, status, color in resource_data %}
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="card-title mb-0">
+                    {% if resource.resource_type == ResourceType.ROOM %}<i class="bi bi-door-open"></i>{% else %}<i class="bi bi-cpu"></i>{% endif %}
+                    {{ resource.name }}
+                </h5>
+                <span class="badge bg-{{ color }}">{{ status }}</span>
+            </div>
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">{{ resource.location }}</h6>
+                <p class="card-text">{{ resource.description | truncate(100) }}</p>
+            </div>
+            <div class="card-footer bg-transparent border-top-0">
+                <a href="{{ url_for('resource_detail', resource_id=resource.id) }}" class="btn btn-primary w-100">View Details & Book</a>
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <div class="col-12"><div class="card card-body text-center"><p class="mb-0">No resources found. Try adjusting your search or filters.</p></div></div>
+    {% endfor %}
+</div>
+{% endblock %}

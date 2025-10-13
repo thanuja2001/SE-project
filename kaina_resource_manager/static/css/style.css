@@ -1,0 +1,85 @@
+/* --- Kaina AWS-Style UI Theme --- */
+
+:root {
+    --kaina-blue: #0d6efd;
+    --kaina-blue-hover: #0b5ed7;
+    --kaina-light-blue: #e7f3ff;
+    --kaina-text: #16191f;
+    --kaina-text-secondary: #5f6b7a;
+    --kaina-border: #d1d9e2;
+    --kaina-bg-light: #f0f2f5;
+    --kaina-bg-white: #ffffff;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--kaina-bg-light);
+    color: var(--kaina-text);
+}
+
+.navbar {
+    background-color: var(--kaina-bg-white);
+    border-bottom: 1px solid var(--kaina-border);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+    color: var(--kaina-blue) !important;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--kaina-border);
+}
+
+.page-header h1 {
+    margin-bottom: 0;
+    font-size: 1.75rem;
+}
+
+.controls-container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--kaina-bg-white);
+    border: 1px solid var(--kaina-border);
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+    background-color: #fafafa;
+    border-bottom: 1px solid var(--kaina-border);
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: var(--kaina-blue);
+    border-color: var(--kaina-blue);
+}
+.btn-primary:hover {
+    background-color: var(--kaina-blue-hover);
+    border-color: var(--kaina-blue-hover);
+}
+
+.badge.bg-success { background-color: #1d8102 !important; }
+.badge.bg-warning { background-color: #d9a400 !important; }
+.badge.bg-danger { background-color: #d13212 !important; }
+
+.list-group-item {
+    background-color: transparent;
+    border-color: var(--kaina-border);
+}
+
+.alert-info {
+    background-color: var(--kaina-light-blue);
+    color: var(--kaina-text);
+    border-color: #b8d9fb;
+}
